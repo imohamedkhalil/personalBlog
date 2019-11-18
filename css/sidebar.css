@@ -1,0 +1,97 @@
+.sidebar {
+    grid-area: sidebar;
+    justify-self: center;
+}
+
+.search, .author, .popular-posts, .newsletter {
+    border: 1px #EEE solid;
+    padding: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.search-input {
+    background-color: rgb(249, 249, 255);
+    border: 0.5px rgb(249, 249, 255) solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3% 0 3% 0;
+    width: 88%;
+}
+
+.fa-search {
+    font-size: 130%;
+    padding-left: 4%;
+}
+
+.search-link {
+    text-decoration: none;
+    color: black;
+}
+
+.job-title {
+    margin-top: -5px;
+    color: grey;
+    font-size: 80%;
+}
+
+.author-img {
+    width: 100%;
+}
+
+.author-description {
+    margin: 4% 0 6% 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.social-link {
+    text-decoration: none;
+    color: grey;
+}
+
+.popular-icon {
+    font-size: 150%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6%;
+    align-items: center;
+}
+
+.row-item {
+    margin-left: 5%;
+}
+
+.time {
+    font-size: 65%;
+    justify-self: end;
+}
+
+.subscribe {
+    text-align: center;
+    padding: 0 auto;
+}
+
+.subscribe-link {
+    text-decoration: none;
+    color: black;
+    font-size: 90%;
+}
+
+.subscribe-button {
+    margin: 5% auto;
+    padding: 2%;
+    border: 1px grey solid;
+    border-radius: 10px;
+    width: 88%;
+    text-align: center;
+    background-color: rgb(140, 95, 245);
+}

@@ -1,0 +1,37 @@
+
+.blog {
+    grid-area: blog;
+    margin-right: 2%;
+}
+
+h3 {
+    padding-top: 3%;
+}
+
+p {
+    padding-top: 2%;
+}
+
+.article {
+    margin-bottom: 8%;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.button {
+    padding: 0.5%;
+    border: 1px grey solid;
+    border-radius: 10px;
+    width: 18%;
+    text-align: center;
+    background-color: rgb(140, 95, 245);
+    margin-top: 2%;
+}
+
+.continue-reading {
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+}

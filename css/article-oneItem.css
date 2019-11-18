@@ -1,0 +1,95 @@
+.blog {
+    grid-area: blog;
+    margin-right: 2%;
+}
+
+h3 {
+    padding-top: 3%;
+}
+
+p {
+    padding-top: 2%;
+}
+
+.article {
+    margin-bottom: 8%;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.blog-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.tag-link {
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+}
+
+.tags {
+    width: 30%;
+}
+
+.tag {
+    font-size: 80%;
+    padding: 2.5%;
+    border: 1px grey solid;
+    border-radius: 10px;
+    width: 18%;
+    text-align: center;
+    background-color: #f9f9ff;
+    margin: 2% 5% 0 0;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 65%;
+}
+
+.user-name {
+    margin-right: 2%;
+}
+
+.horizonral-line {
+    margin-top: 4%;
+    width: 95%;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+
+.comment-link {
+    text-decoration: none;
+    color: black;
+    font-size: 90%;
+}
+
+.comment-input {
+    background-color: rgb(249, 249, 255);
+    border: 0.5px rgb(249, 249, 255) solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 75%;
+}
+
+.comment-button {
+    border: 1px grey solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(140, 95, 245);
+    margin-left: 10%;
+    padding: 1%;
+}
